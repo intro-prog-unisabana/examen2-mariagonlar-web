@@ -29,11 +29,7 @@ def cumulative_time(timer):
 
 
 def format_laps(timer):
-    times = timer["times"]
-    result = []
-    for t in times:
-        result.append(f"{t:.2f}")
-    return "[" + ", ".join(result) + "]"
+    return str(timer["times"])
 
 
 def fastest_lap(timer):
