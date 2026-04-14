@@ -13,6 +13,7 @@ def main():
             time = float(line.strip())
             lap_timer.add_lap(timer, time)
     result = lap_timer.longest_decreasing_streak(timer)
+    print(result)
     
 
 if __name__ == "__main__":
